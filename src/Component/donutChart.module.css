@@ -1,0 +1,53 @@
+.chartContainer {
+  height: 35rem;
+  width: 35rem;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border: 1px solid black;
+  border-radius: 0.3125rem;
+  margin-top: 2rem;
+  background-color: #ffffff;
+}
+
+.randomizeButton {
+  margin-top: 1rem;
+}
+
+.donutChart {
+  padding-top: 2rem;
+  height: 75%;
+  width: 75%;
+}
+
+button {
+  background-color: #007bff;
+  border: none;
+  color: #fff;
+  padding: 0.625rem 1.25rem;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 1rem;
+  border-radius: 0.3125rem;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #0069d9;
+}
+
+button:active {
+  background-color: #005cbf;
+}
+.copyRight {
+  margin-top: 0.5rem;
+  background-color: #f8f8f8;
+  font-size: 0.75rem;
+  padding: 0.5rem;
+  text-align: center;
+  font-style: italic;
+  color: #999;
+}
